@@ -9,7 +9,7 @@ import javax.ws.rs.Produces;
 @RequestScoped
 @Path("/insult")
 public class InsultResource {
-	@Get()
+	@GET()
 	@Produces("application/json")
 	public HashMap<String,String> getInsult() {
 		HashMap<String, String> theInsult = new HashMap<String, String>();
