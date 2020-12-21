@@ -18,7 +18,13 @@
 		    <artifactId>postgresql</artifactId>
 		    <version>9.4-1200-jdbc41</version>
 	    </dependency>	
-   </dependencies>
+            <dependency>
+		    <groupId>javax</groupdId>
+	            <artifactId>javaee-api</artifactId>
+		    <version>7.0</version>
+	    </dependency>
+    </dependencies>
+      
 <build>   
     <plugins>
         <plugin>
